@@ -85,12 +85,14 @@ color: #FF0000;
     width: 1320px;
     margin-left: auto;
     margin-right: auto;
-    padding: 50px 100px;
+    
     
 }
 
 .midnight-party-section-container{
     max-width: 642px;
+    padding-left: 100px;
+    padding-top: 50px;
 }
 
 .midnight-party-section-title{
@@ -188,5 +190,45 @@ font-weight: 400;
 font-size: 20px;
 color: rgba(7, 2, 17, 0.6);
 
-
 }
+
+/* Party address container */
+
+.party-address-container{
+    padding-top: 50px;
+    text-align: center;
+    background-image: url('resources/Vector-pink.png') ;
+    width: 1320px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+}
+
+.red-style{
+    color: #FF0000;
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.black-style{
+    color: black;
+    font-family: 'Inter';
+}
+
+/* button */
+
+.party-join{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border: solid black 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Inter';
+    margin-top: 20px;
+}
+
