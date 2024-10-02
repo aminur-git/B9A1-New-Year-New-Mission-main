@@ -1,0 +1,192 @@
+
+/* Shared Styles */
+
+
+section{
+    margin-top: 100px;
+}
+
+
+
+/* Party-Celebration-Banner */
+
+.party-banner{
+
+    background-image: url('resources/Rectangle\ 15.png'), url('resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    
+    
+}
+
+.party-banner-container{
+    text-align: center;
+}
+
+.new-year-greetings{
+    
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    
+    
+}
+
+.new-year-celebration{
+    color: #ffff;
+    font-size: 72px;
+    font-weight: 700;
+    padding: 0px 200px;
+    font-family: 'Merriweather';
+}
+
+/* OFF SECTION */
+.off-section{
+    align-content: center;
+    text-align: center;
+}
+
+.off-title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 88px;
+/* identical to box height */
+color: #FF0000;
+}
+
+.off-desccription{
+    font-size: 24px;
+    font-family: 'Inter';
+    color: #FF0000;
+    margin-top: 40px;
+}
+
+.categories-title{
+    font-family: 'Inter';
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+/* midnight-party-section */
+
+.midnight-party-section{
+    background-image: url('resources/Vector.png') , url('resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 100px;
+    
+}
+
+.midnight-party-section-container{
+    max-width: 642px;
+}
+
+.midnight-party-section-title{
+    color: #FFFFFF;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: 'Inter';
+}
+
+.midnight-party-section-description{
+    font-family: 'Inter';
+    font-size: 18px;
+    color: #FFFFFF;
+    opacity: 80%;
+    font-weight: lighter;
+}
+
+/* button */
+.midnight-join{
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 15px 30px;
+    border: solid black 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Inter';
+    margin-top: 20px;
+}
+
+/* best offer section */
+.best-offer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.offers{
+    /* margin-right: 50px; */
+   
+    
+}
+
+.best-offer-intro{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+color: #FF0000;
+margin-bottom: 0px;
+}
+
+.best-offer-title{
+
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: 900;
+font-size: 48px;
+line-height: 60px;
+text-transform: capitalize;
+color: #070211;
+margin-bottom: 0px;
+margin-top: 20px;
+}
+
+.best-offer-description{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+.best-offer-intro-2024{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FF0000;
+   
+    
+}
+.best-offer-description-2024{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+color: rgba(7, 2, 17, 0.6);
+
+
+}
