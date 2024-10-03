@@ -400,3 +400,76 @@ cursor: pointer;
 .input-subscribe-button:hover{
     scale: 1.01;
 }
+
+
+/* footer section */
+
+footer{
+    background-color: #000000;
+    min-height: 600px;
+    color: #FFFFFF;
+
+    
+}
+
+.footer-text-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px;
+    
+
+}
+
+
+.footer-address-title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+color: #ffffff;
+max-width:375px ;
+}
+
+
+.footer-images-container{
+
+    align-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 328px;
+    transition: 0.3s;
+
+}
+
+footer img{
+    margin-left: 10px;
+}
+
+footer img:hover{
+    scale: 1.02;
+    cursor: pointer;
+}
+
+.button-unsubscribe{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 20px 30px;
+    border: solid black 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Inter';
+    
+}
+
+.button-unsubscribe:hover{
+    scale: 0.9;
+}
+
+
+.footer-foot-section{
+    display: flex;
+    justify-content: space-between;
+}
