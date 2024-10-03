@@ -317,6 +317,7 @@ color: #FF0000;
     color: #070211;
     opacity: 60%;
 }
+    
 
 table td{
     padding: 10px;
@@ -330,4 +331,72 @@ table img{
 
 table img:hover{
     transform: scale(1.05);
+}
+
+/* newsletter section */
+
+.newsletter{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-image: url('resources/Rectangle\ 11\ \(1\).png');
+    max-width: 1320px;
+    max-height: 620px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.newsletter-description{
+    max-width: 900px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    color: #070211;
+    opacity: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.newsletter-container{
+    padding: 100px;
+}
+
+.input-mail{
+background: #FFFFFF;
+border-radius: 50px 0px 0px 50px;
+padding: 20px 200px 20px 20px;
+border: none;
+font-family: 'Inter';
+
+}
+
+.input-subscribe-button{
+border-radius: 0px 50px 50px 0px;
+padding: 20px 40px;
+border: none;
+font-family: 'Inter';
+max-width: 210px;
+max-height: 75px;
+background-color: #FF0000;
+color: #FFFFFF;
+font-size: 20px;
+font-weight: 700px;
+text-decoration: none;
+cursor: pointer;
+
+}
+
+.subscribe-area{
+    margin: none;
+    display: flex;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 75px;
+
+}
+
+.input-subscribe-button:hover{
+    scale: 1.01;
 }
